@@ -6,3 +6,4 @@ CATALOGUE_HOST: catalogue.dev28p.online
 CART_HOST: cart.dev28p.online
 USER_HOST: user.dev28p.online
 SHIPPING_HOST: shipping.dev28p.online
+PAYMENT_HOST: payment.dev28p.online
