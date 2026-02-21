@@ -10,7 +10,7 @@
       - catalogue
       - user
       - cart
-    #  - shipping
+      - shipping
       - mongodb
       - redis
       - mysql
