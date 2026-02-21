@@ -24,10 +24,10 @@
     login_user: "{{ SHIPPING_USER }}"
     login_password: "{{ SHIPPING_PASSWORD }}"
     target: "{{ item }}"
-    loop:
-    - /app/db/schema.sql
-    - /app/db/app-user.sql 
-    - /app/db/master-data.sql
+  loop:
+  - /app/db/schema.sql
+  - /app/db/app-user.sql 
+  - /app/db/master-data.sql
     
 - name: starting user service
   ansible.builtin.import_role:
