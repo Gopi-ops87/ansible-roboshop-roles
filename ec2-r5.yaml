@@ -8,8 +8,8 @@
     domain_name: "dev28p.online"
     instances:
       - catalogue
-    #  - user
-    #  - cart
+      - user
+      - cart
     #  - shipping
       - mongodb
       - redis
