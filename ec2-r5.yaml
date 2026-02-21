@@ -7,14 +7,14 @@
     zone_id: Z0700843M2YZ13RK7XZQ
     domain_name: "dev28p.online"
     instances:
-    #  - catalogue
+      - catalogue
     #  - user
     #  - cart
     #  - shipping
       - mongodb
-    #  - redis
-    #  - mysql
-    #  - rabbitmq
+      - redis
+      - mysql
+      - rabbitmq
     #  - payment
     #  - frontend
   tasks:
